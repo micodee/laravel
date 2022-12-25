@@ -1,0 +1,23 @@
+i composer
+i xampp
+
+cara 1
+1 composer create-project laravel/laravel laravel-app
+2 cd laravel-app
+
+cara 2 install global
+1 composer global require laravel/installer (sudah terinstall)
+2 laravel new laravel-app (buat folder)
+
+php artisan serve (menjalankan server)
+
+# insatll valet
+https://packagist.org/packages/cretueusebiu/valet-windows
+composer global require cretueusebiu/valet-windows (download packages)
+valet install (kemudian install)
+valet park (parkir di parent laravel-app)
+dibrowser : http://laravel-app.test/ (panggil nama folder diakhiri dgn .test)
+
+mvc (models(app) views(resource) controllers(http))
+
+.env app-url ganti dengan domain valet http://laravel-app.test/
