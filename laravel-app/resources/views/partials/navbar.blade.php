@@ -13,11 +13,11 @@
             <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" href="/about">About</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link {{ ($title === "Blog") ? 'active' : '' }} dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link {{ ($title === "Posts") ? 'active' : '' }} dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Blog
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/blog">Action</a></li>
+              <li><a class="dropdown-item" href="/posts">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
